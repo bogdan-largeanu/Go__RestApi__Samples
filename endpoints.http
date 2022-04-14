@@ -1,0 +1,7 @@
+### Basic Get Request Retriving an array of albums.
+GET localhost:8080/albums
+Accept: application/json
+
+
+
+
