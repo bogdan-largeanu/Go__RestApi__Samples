@@ -19,6 +19,7 @@ var albums = []album{
 	{ID: "3", Title: "Sarah Vaughan and Clifford Brown", Artist: "Sarah Vaughan", Price: 39.99},
 }
 
+//add a new album to the list of albums and return 201
 func postAlbums(c *gin.Context) {
 	var newAlbum album
 	//this will bind the JSON from router context to newAlbum variable
